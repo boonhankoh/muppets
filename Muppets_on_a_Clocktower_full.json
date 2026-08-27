@@ -10,7 +10,7 @@
 {
     "id": "nonverbal",
     "name": "Non-Verbal",
-    "image": "https://i.imgur.com/mqPBISO.png",
+    "image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/beaker%20fabelled.png",
 	"edition": "Muppets",
     "team": "fabled",
     "ability": "Communicating without real words. Gestures, noises, and pointing (and names when online) all count as non-verbal."
@@ -231,8 +231,8 @@
 		"team": "outsider",
 		"ability": "You do not know you are a Human. You think you are a Townsfolk character, but you are not.",
 		"image": [
-		"https://i.imgur.com/pgQoiHP.png",
-		"https://i.imgur.com/uTVG8UZ.png"
+		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/am%20i%20a%20man.png",
+		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/am%20i%20a%20man%20rev.png"
 		],
 		"remindersGlobal": ["Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human"],
 		"otherNightReminder": "Treat them as if they were the character they think they are, but human.",
