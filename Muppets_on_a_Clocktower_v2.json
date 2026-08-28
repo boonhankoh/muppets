@@ -1,34 +1,59 @@
 [
 {
-	"id":"_meta",
-	"author":"Patrick and Josie",
-	"name": "Muppets on a Clocktower v2.0",
-	"logo": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/kermit.png",
-	"firstNight": ["dusk", "minioninfo", "demoninfo", "crazyharry", "bunsenhoneydew", "rowlfthedog", "pepetheprawn", "samtheeagle", "rizzotherat", "dawn"],
-	"otherNight": ["dusk", "thegreatgonzo", "rizzotherat", "animal", "crazyharry", "constantine", "misspiggy", "waldorf", "statler", "uncledeadly", "drteeth", "longjohnsilver", "kermitthefrog", "samtheeagle", "camillathechicken", "sweetums", "fozziebear", "beaker", "swedishchef", "dawn"]
+		"id":"_meta",
+		"author":"Patrick and Josie",
+		"name": "Muppets on a Clocktower v2.0",
+		"logo": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/kermit.png",
+		"firstNight": ["dusk", "minioninfo", "demoninfo", "crazyharry", "bunsenhoneydew", "rowlfthedog", "pepetheprawn", "samtheeagle", "rizzotherat", "dawn"],
+		"otherNight": ["dusk", "thegreatgonzo", "rizzotherat", "animal", "crazyharry", "constantine", "misspiggy", "waldorf", "statler", "uncledeadly", "drteeth", "longjohnsilver", "kermitthefrog", "samtheeagle", "camillathechicken", "sweetums", "fozziebear", "beaker", "swedishchef", "dawn"]
 },
 {
-    "id": "nonverbal",
-    "name": "Non-Verbal",
-    "image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/beaker%20fabelled.png",
-	"edition": "Muppets",
-    "team": "fabled",
-    "ability": "Communicating without using real words. Gestures, noises, and pointing all count as non-verbal. Player names can be used when playing online."
-  },
+		"id": "nonverbal",
+		"name": "Non-Verbal",
+		"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/beaker%20fabelled.png",
+		"edition": "Muppets",
+		"team": "fabled",
+		"ability": "Communicating without using real words. Gestures, noises, and pointing all count as non-verbal. Player names can be used when playing online."
+},
 {
-    "id": "manormuppet",
-    "name": "Am I Man or Muppet?",
-	"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/am%20i%20a%20man%20fabelled.png",
-	"edition": "Muppets",
-    "team": "fabled",
-    "ability": "If a Townsfolk is turned into a Human they are not informed of this. If a Human is turned into a Townsfolk they are not told of the change, and they become the Townsfolk they believe themselves to be."
-  },
+		"id": "manormuppet",
+		"name": "Am I Man or Muppet?",
+		"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/am%20i%20a%20man%20fabelled.png",
+		"edition": "Muppets",
+		"team": "fabled",
+		"ability": "If a Townsfolk is turned into a Human they are not informed of this. If a Human is turned into a Townsfolk they are not told of the change, and they become the Townsfolk they believe themselves to be."
+},
+{
+		"id": "bigbird",
+		"name": "Big Bird",
+		"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/big%20bird.png",
+		"edition": "Muppets",
+		"team": "traveller",
+		"ability": "You are the tallest player."
+},
+{
+		"id": "cookiemonster",
+		"name": "Cookie Monster",
+		"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/cookie%20monster.png",
+		"edition": "Muppets",
+		"team": "traveller",
+		"ability": "All players must share their snacks with you."
+},
+{
+		"id": "countvoncount",
+		"name": "Count von Count",
+		"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/count%20von%20count.png",
+		"edition": "Muppets",
+		"team": "traveller",
+		"ability": "You conduct and count each vote."
+},
 {
 		"id": "bunsenhoneydew",
 		"name": "Bunsen Honeydew",
 		"edition": "Muppets",
 		"team": "townsfolk",
 		"ability": "You start knowing how many characters are in play that can create Humans.",
+		"flavor": "Science has left me a sad and lonely man.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/bunsen.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/bunsen%20rev_.png"
