@@ -104,7 +104,7 @@
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/bunsen.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/bunsen%20rev_.png"
 	],
-	"firstNightReminder": "Give a finger signal."
+	"firstNightReminder": "Give a finger signal (0, 1, 2, etc)."
 },
 {
 	"id": "rowlfthedog",
@@ -123,7 +123,7 @@
 		"Not Townsfolk",
 		"Not Townsfolk"
 	],
-	"firstNightReminder": "Point to two players who are not Townsfolk."
+	"firstNightReminder": "Point to two players with the *Not Townsfolk* token."
 },
 {
 	"id": "pepetheprawn",
@@ -138,7 +138,7 @@
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/pepe.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/pepe%20rev.png"
 	],
-	"firstNightReminder": "Show the Demon character token."
+	"firstNightReminder": "Show the in-play character token(s)."
 },
 {
 	"id": "samtheeagle",
@@ -154,8 +154,8 @@
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/sam%20rev.png"
 	],
 	"setup": true,
-	"firstNightReminder": "Give a finger signal.",
-	"otherNightReminder": "Give a finger signal."
+	"firstNightReminder": "Give a finger signal (0, 1, 2, etc.).",
+	"otherNightReminder": "Give a finger signal (0, 1, 2, etc.)."
 },
 {
 	"id": "kermitthefrog",
@@ -170,7 +170,7 @@
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/kermit.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/kermit%20rev.png"
 	],
-	"otherNightReminder": "Kermit picks a player. If Kermit selected a human, remove the human reminder token. If Miss Piggy is in play, instead add a human reminder token."
+	"otherNightReminder": "Kermit picks a player. If Kermit selected a Human, remove the *Human* reminder token from the player. If Miss Piggy is in play, instead add a *Human* reminder token to the chosen player."
 },
 {
 	"id": "camillathechicken",
@@ -188,7 +188,7 @@
 	"reminders": [
 		"Executed Today"
 	],
-	"otherNightReminder": "Point to a player of the same alignment as the player executed today."
+	"otherNightReminder": "Point to a player of the same alignment as the player with the *Executed Today* reminder token."
 },
 {
 	"id": "sweetums",
@@ -210,7 +210,7 @@
 		"Voted",
 		"Voted"
 	],
-	"otherNightReminder": "Give a finger signal."
+	"otherNightReminder": "Give a finger signal (0, 1, 2, etc.)."
 },
 {
 	"id": "swedishchef",
@@ -228,7 +228,7 @@
 	"reminders": [
 		"Non-verbal"
 	],
-	"otherNightReminder": "Give a finger signal (up, down, or number)."
+	"otherNightReminder": "Give a finger signal (up, down, or level; or a number if there is a *Non-verbal* reminder token)."
 },
 {
 	"id": "thegreatgonzo",
@@ -244,7 +244,7 @@
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/gonzo%20rev.png"
 	],
 	"reminders": [
-		"Died tonight"
+		"Died Tonight"
 	],
 	"otherNightReminder": "Gonzo chooses a player. If a Minion is chosen, the Minion dies. If a Townsfolk is chosen, Gonzo dies."
 },
@@ -264,7 +264,7 @@
 	"reminders": [
 		"Chosen"
 	],
-	"otherNightReminder": "Rizzo chooses a player. Wake them again if that player dies tonight, and show a character token."
+	"otherNightReminder": "Rizzo chooses a player. Wake them again if that player dies tonight, and show an in-play alive character token."
 },
 {
 	"id": "fozziebear",
@@ -282,22 +282,7 @@
 	"reminders": [
 		"True"
 	],
-	"otherNightReminder": "Nod if a *True* reminder was placed today."
-},
-{
-	"id": "drteeth",
-	"name": "Dr. Teeth",
-	"edition": "Muppets",
-	"team": "townsfolk",
-	"ability": "If the Demon kills you, a Human becomes a Townsfolk: you learn who.",
-	"flavor": "This staccato tune is posolutely, most transparently bringing me down!",
-	"firstNight": 0,
-	"otherNight": 11,
-	"image": [
-		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/dr%20teeths.png",
-		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/dr%20teeths%20rev.png"
-	],
-	"otherNightReminder": "If Dr. Teeth was killed by the demon tonight, remove the human reminder token from a player, point them to the player."
+	"otherNightReminder": "Nod if a *True* reminder token was placed today."
 },
 {
 	"id": "beaker",
@@ -319,6 +304,21 @@
 		"Non-verbal"
 	],
 	"firstNightReminder": "Show up to 5 character tokens."
+},
+{
+	"id": "drteeth",
+	"name": "Dr. Teeth",
+	"edition": "Muppets",
+	"team": "townsfolk",
+	"ability": "If the Demon kills you, a Human becomes a Townsfolk: you learn who.",
+	"flavor": "This staccato tune is posolutely, most transparently bringing me down!",
+	"firstNight": 0,
+	"otherNight": 11,
+	"image": [
+		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/dr%20teeths.png",
+		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/dr%20teeths%20rev.png"
+	],
+	"otherNightReminder": "If Dr. Teeth was killed by the demon tonight, remove the *Human* reminder token from a player, then point them to the player."
 },
 {
 	"id": "longjohnsilver",
@@ -432,9 +432,43 @@
 	"reminders": [
 		"Turns Evil"
 	],
-	"firstNightReminder": "Crazy Harry selects a player. Nod the first time they select an Outsider.",
-	"otherNightReminder": "Crazy Harry selects a player. Nod the first time they select an Outsider.",
+	"firstNightReminder": "Crazy Harry selects a player. The first time they select an Outsider, the Outsider turns evil. Wake the Outsider up and inform them of their new alignment.",
+	"otherNightReminder": "Crazy Harry selects a player. The first time they select an Outsider, the Outsider turns evil. Wake the Outsider up and inform them of their new alignment.",
 	"setup": true
+},
+{
+	"id": "constantine",
+	"name": "Constantine",
+	"edition": "Muppets",
+	"team": "minion",
+	"ability": "Each night*, you may choose 2 players (not a Demon): they swap characters but their abilities do not refresh. You might register as good, and as Kermit the Frog, even if dead.",
+	"flavor": "My name will go down as the greatest thief of all time!",
+	"firstNight": 0,
+	"otherNight": 5,
+	"image": [
+		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/constantine.png",
+		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/constantine%20rev.png"
+	],
+	"otherNightReminder": "Constantine selects two players (not the demon). Swap character tokens of the two chosen players. Wake each swapped player, show them the *YOU ARE* info token and their new character token. Do not refresh abilities."
+},
+{
+	"id": "animal",
+	"name": "Animal",
+	"edition": "Muppets",
+	"team": "minion",
+	"ability": "Once per game, at night*, choose a player: they die. If you were non-verbal on the 1st day, one of their Townsfolk neighbours becomes Human.",
+	"flavor": "BEAT DRUMS! BEAT DRUMS!",
+	"firstNight": 0,
+	"otherNight": 3,
+	"image": [
+		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/animal.png",
+		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/animal%20rev.png"
+	],
+	"reminders": [
+		"Non-verbal",
+		"Died Tonight"
+	],
+	"otherNightReminder": "Does Animal want to use it? If yes, Animal chooses a player. That player dies. If Animal has a *Non-Verbal* reminder token, add a *Human* reminder token to one of the Townsfolk neighbours of the chosen target."
 },
 {
 	"id": "scooter",
@@ -454,40 +488,7 @@
 		"No Ability"
 	]
 },
-{
-	"id": "constantine",
-	"name": "Constantine",
-	"edition": "Muppets",
-	"team": "minion",
-	"ability": "Each night*, you may choose 2 players (not a Demon): they swap characters but their abilities do not refresh. You might register as good, and as Kermit the Frog, even if dead.",
-	"flavor": "My name will go down as the greatest thief of all time!",
-	"firstNight": 0,
-	"otherNight": 5,
-	"image": [
-		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/constantine.png",
-		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/constantine%20rev.png"
-	],
-	"otherNightReminder": "Constantine selects two players (not the demon). Swap character tokens of the two chosen players. Wake each swapped player, show them the YOU ARE info token and their new character token. Do not refresh abilities."
-},
-{
-	"id": "animal",
-	"name": "Animal",
-	"edition": "Muppets",
-	"team": "minion",
-	"ability": "Once per game, at night*, choose a player: they die. If you were non-verbal on the 1st day, one of their Townsfolk neighbours becomes Human.",
-	"flavor": "BEAT DRUMS! BEAT DRUMS!",
-	"firstNight": 0,
-	"otherNight": 3,
-	"image": [
-		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/animal.png",
-		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/animal%20rev.png"
-	],
-	"reminders": [
-		"Non-verbal",
-		"Died Tonight"
-	],
-	"otherNightReminder": "Does Animal want to use it? If yes, Animal chooses a player."
-},
+
 {
 	"id": "misspiggy",
 	"name": "Miss Piggy",
@@ -506,7 +507,7 @@
 		"Died Tonight",
 		"Corrupted"
 	],
-	"otherNightReminder": "Miss Piggy chooses a player."
+	"otherNightReminder": "Miss Piggy chooses a player. They die."
 },
 {
 	"id": "uncledeadly",
@@ -524,7 +525,7 @@
 	"reminders": [
 		"Died Tonight"
 	],
-	"otherNightReminder": "Uncle Deadly chooses a player."
+	"otherNightReminder": "Uncle Deadly chooses a player. They die."
 },
 {
 	"id": "statler",
@@ -543,7 +544,7 @@
 	"reminders": [
 		"Died Tonight"
 	],
-	"otherNightReminder": "Wake with Waldorf: Choose a player."
+	"otherNightReminder": "Wake with Waldorf: Choose a player. They die."
 },
 {
 	"id": "waldorf",
@@ -562,7 +563,7 @@
 	"reminders": [
 		"Died Tonight"
 	],
-	"otherNightReminder": "Wake with Statler: Choose a player."
+	"otherNightReminder": "Wake with Statler: Choose a player. They die."
 },
 	"bootlegger"
 ]
