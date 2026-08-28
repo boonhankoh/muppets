@@ -2,7 +2,7 @@
 {
 	"id":"_meta",
 	"author":"Patrick and Josie",
-	"name": "Muppets on a Clocktower v1.0",
+	"name": "Muppets on a Clocktower v2.0",
 	"logo": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/kermit.png",
 	"firstNight": ["dusk", "minioninfo", "demoninfo", "crazyharry", "bunsenhoneydew", "rowlfthedog", "pepetheprawn", "samtheeagle", "rizzotherat", "dawn"],
 	"otherNight": ["dusk", "thegreatgonzo", "rizzotherat", "animal", "crazyharry", "constantine", "misspiggy", "waldorf", "statler", "uncledeadly", "drteeth", "longjohnsilver", "kermitthefrog", "samtheeagle", "camillathechicken", "sweetums", "fozziebear", "beaker", "swedishchef", "dawn"]
@@ -13,7 +13,7 @@
     "image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/beaker%20fabelled.png",
 	"edition": "Muppets",
     "team": "fabled",
-    "ability": "Communicating without real words. Gestures, noises, and pointing (and names when online) all count as non-verbal."
+    "ability": "Communicating without using real words. Gestures, noises, and pointing all count as non-verbal. Player names can be used when playing online."
   },
 {
     "id": "manormuppet",
@@ -21,14 +21,14 @@
 	"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/am%20i%20a%20man%20fabelled.png",
 	"edition": "Muppets",
     "team": "fabled",
-    "ability": "If a Townsfolk is turned into a Human they are not told of the change. If a Human is turned into a Townsfolk they are not told and become the Townsfolk they believe themselves to be."
+    "ability": "If a Townsfolk is turned into a Human they are not informed of this. If a Human is turned into a Townsfolk they are not told of the change, and they become the Townsfolk they believe themselves to be."
   },
 {
 		"id": "bunsenhoneydew",
 		"name": "Bunsen Honeydew",
 		"edition": "Muppets",
 		"team": "townsfolk",
-		"ability": "You start knowing how many characters there are in play who can create humans.",
+		"ability": "You start knowing how many characters are in play that can create Humans.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/bunsen.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/bunsen%20rev_.png"
@@ -40,7 +40,7 @@
 		"name": "Rowlf the Dog",
 		"edition": "Muppets",
 		"team": "townsfolk",
-		"ability": "You start knowing 2 players who are not townsfolk.",
+		"ability": "You start knowing 2 players who are not Townsfolk.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/rowlf.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/rowlf%20rev.png"
@@ -53,7 +53,7 @@
 		"name": "Pepe the Prawn",
 		"edition": "Muppets",
 		"team": "townsfolk",
-		"ability": "You start knowing which demon is in play.",
+		"ability": "You start knowing which Demons are in play.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/pepe.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/pepe%20rev.png"
@@ -65,7 +65,7 @@
 		"name": "Sam the Eagle",
 		"edition": "Muppets",
 		"team": "townsfolk",
-		"ability": "Each night you learn how many steps a living evil is from you. [+1 Human]",
+		"ability": "Each night, you learn how many steps from you to an alive evil player. [+1 Human]",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/sam.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/sam%20rev.png"
@@ -79,7 +79,7 @@
 		"name": "Kermit the Frog",
 		"edition": "Muppets",
 		"team": "townsfolk",
-		"ability": "Each night*, choose a player (not yourself): if they are a human they become a townsfolk.",
+		"ability": "Each night*, choose a player (not yourself): a Human, if chosen, becomes a Townsfolk.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/kermit.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/kermit%20rev.png"
@@ -104,7 +104,7 @@
 		"name": "Sweetums",
 		"edition": "Muppets",
 		"team": "townsfolk",
-		"ability": "Each night*, you learn how many evil players voted.",
+		"ability": "Each night*, you learn how many evil players voted today.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/sweetems.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/sweetems%20rev.png"
@@ -117,7 +117,7 @@
 		"name": "Swedish Chef",
 		"edition": "Muppets",
 		"team": "townsfolk",
-		"ability": "Each night*, you learn if there are more or less humans than last night. If you were non-verbal day 1, you instead learn how many humans are in play.",
+		"ability": "Each night*, you learn if there are more or less Humans than last night. If you were non-verbal on the 1st day, you instead learn how many Humans are in play.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/cheff.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/cheff%20rev.png"
@@ -130,7 +130,7 @@
 		"name": "The Great Gonzo",
 		"edition": "Muppets",
 		"team": "townsfolk",
-		"ability": "Each night*, you may choose a player: if you choose a minion they die, if you choose a townsfolk you die.",
+		"ability": "Each night*, you may choose a player: if you choose a Minion they die, if you choose a Townsfolk you die.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/gonzo.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/gonzo%20rev.png"
@@ -143,7 +143,7 @@
 		"name": "Rizzo the Rat",
 		"edition": "Muppets",
 		"team": "townsfolk",
-		"ability": "Each night*, choose a player: if they are killed tonight you learn their character.",
+		"ability": "Each night*, choose a player: if they are killed by the Demon tonight, you learn an alive character.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/rizzo.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/rizzo%20rev.png"
@@ -156,7 +156,7 @@
 		"name": "Fozzie Bear",
 		"edition": "Muppets",
 		"team": "townsfolk",
-		"ability": "Each day, you may make a public joke. Waka waka. Tonight, you learn if it was true.",
+		"ability": "Each day, you may make a public joke. Wocka! Wocka! Tonight, you learn if it was true.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/fozzie.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/fozzie%20rev.png"
@@ -169,7 +169,7 @@
 		"name": "Dr. Teeth",
 		"edition": "Muppets",
 		"team": "townsfolk",
-		"ability": "If you are killed by the demon, a human becomes a townsfolk, you learn who.",
+		"ability": "If the Demon kills you, a Human becomes a Townsfolk: you learn who.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/dr%20teeths.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/dr%20teeths%20rev.png"
@@ -181,7 +181,7 @@
 		"name": "Beaker",
 		"edition": "Muppets",
 		"team": "townsfolk",
-		"ability": "If you were non-verbal day one, that night you learn the characters of players who were nonverbal (up to 4) +1 character which is not in play.",
+		"ability": "If you were non-verbal on the 1st day, that night you learn the characters of players who were non-verbal (up to 4) & one character which is not in play.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/beaker.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/beaker%20rev.png"
@@ -206,7 +206,7 @@
 		"name": "Scrooge",
 		"edition": "Muppets",
 		"team": "outsider",
-		"ability": "At night, if a player targets another player, they might target you instead.",
+		"ability": "Each night, if a player chooses another player, they might target you instead.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/scrooge.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/scrooge%20rev.png"
@@ -218,7 +218,7 @@
 		"name": "Cameraman",
 		"edition": "Muppets",
 		"team": "outsider",
-		"ability": "If you commmunicate verbally on day 1, a townsfolk might become human immediately.",
+		"ability": "If you communicate verbally on the 1st day, a Townsfolk might become Human immediately.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/camera%20man.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/camera%20man%20rev.png"
@@ -243,7 +243,7 @@
 		"name": "Crazy Harry",
 		"edition": "Muppets",
 		"team": "minion",
-		"ability": "Each night choose a player, the first outsider you choose becomes evil, you learn this. [+1 outsider]",
+		"ability": "Each night*, choose a player: the 1st Outsider you choose becomes evil. [+1 Outsider]",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/crazy%20harry.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/crazy%20harry%20rev.png"
@@ -258,7 +258,7 @@
 		"name": "Scooter",
 		"edition": "Muppets",
 		"team": "minion",
-		"ability": "Once per day you may choose to take one player off the block. If just 3 players live you lose this ability.",
+		"ability": "If there are 5 or more players alive, once per day, you may choose to take a player off the block.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/scooter.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/scooter%20rev.png"
@@ -270,7 +270,7 @@
 		"name": "Constantine",
 		"edition": "Muppets",
 		"team": "minion",
-		"ability": "Each night* choose 2 players (not the demon), they swap characters, abilities do not refresh. You register as good, and as Kermit, even if dead.",
+		"ability": "Each night*, you may choose 2 players (not a Demon): they swap characters but their abilities do not refresh. You might register as good, and as Kermit the Frog, even if dead.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/constantine.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/constantine%20rev.png"
@@ -282,7 +282,7 @@
 		"name": "Animal",
 		"edition": "Muppets",
 		"team": "minion",
-		"ability": "Once per game at night*, choose a player: they die, if you were nonverbal on day 1, 1 of their Townsfolk neighbours becomes human.",
+		"ability": "Once per game, at night*, choose a player: they die. If you were non-verbal on the 1st day, one of their Townsfolk neighbours becomes Human.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/animal.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/animal%20rev.png"
@@ -295,7 +295,7 @@
 		"name": "Miss Piggy",
 		"edition": "Muppets",
 		"team": "demon",
-		"ability": "Each night*, choose a player: they die. Townsfolk chosen by Kermit become humans instead. [+ Kermit]",
+		"ability": "Each night*, choose a player: they die. Townsfolk chosen by Kermit the Frog might become Humans instead. [+ Kermit the Frog]",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/miss%20piggy.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/miss%20piggy%20rev.png"
@@ -309,7 +309,7 @@
 		"name": "Uncle Deadly",
 		"edition": "Muppets",
 		"team": "demon",
-		"ability": "Each night*, choose a player: they die. Townsfolk who nominate you become Human.",
+		"ability": "Each night*, choose a player: they die. Townsfolk who nominate you become Human immediately.",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/uncle%20deadly.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/uncle%20deadly%20rev.png"
@@ -322,7 +322,7 @@
 		"name": "Statler",
 		"edition": "Muppets",
 		"team": "demon",
-		"ability": "Each night*, wake with Waldorf, together choose one player: they die.[+ Waldorf, -1 minion]",
+		"ability": "Each night*, wake with Waldorf, together choose one player: they die. [+ Waldorf, -1 Minion]",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/statler.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/statler%20rev.png"
@@ -336,7 +336,7 @@
 		"name": "Waldorf",
 		"edition": "Muppets",
 		"team": "demon",
-		"ability": "Each night*, wake with Statler, together choose one player: they die.[+ Statler]",
+		"ability": "Each night*, wake with Statler, together\nchoose one player: they die. [+ Statler]\n",
 		"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/waldorf.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/waldorf%20rev.png"
