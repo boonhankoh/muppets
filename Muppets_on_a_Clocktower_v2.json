@@ -1,401 +1,568 @@
 [
 {
-		"id":"_meta",
-		"author":"Patrick and Josie",
-		"name": "Muppets on a Clocktower v2.0",
-		"logo": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/kermit.png",
-		"firstNight": ["dusk", "minioninfo", "demoninfo", "crazyharry", "bunsenhoneydew", "rowlfthedog", "pepetheprawn", "samtheeagle", "rizzotherat", "dawn"],
-		"otherNight": ["dusk", "thegreatgonzo", "rizzotherat", "animal", "crazyharry", "constantine", "misspiggy", "waldorf", "statler", "uncledeadly", "drteeth", "longjohnsilver", "kermitthefrog", "samtheeagle", "camillathechicken", "sweetums", "fozziebear", "beaker", "swedishchef", "dawn"]
+	"id":"_meta",
+	"author":"Patrick and Josie",
+	"name": "Muppets on a Clocktower v2.0",
+	"logo": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/kermit.png",
+	"almanac": "https://drive.google.com/file/d/1JDSwNSV5KwSrWxGYUtfmyhr03iflytdm/view",
+	"firstNight": [
+		"dusk",
+		"minioninfo",
+		"demoninfo",
+		"bunsenhoneydew",
+		"rowlfthedog",
+		"pepetheprawn",
+		"samtheeagle",
+		"dawn"
+	],
+	"otherNight": [
+		"dusk",
+		"thegreatgonzo",
+		"rizzotherat",
+		"animal",
+		"crazyharry",
+		"constantine",
+		"misspiggy",
+		"waldorf",
+		"statler",
+		"uncledeadly",
+		"longjohnsilver",
+		"kermitthefrog",
+		"drteeth",
+		"samtheeagle",
+		"camillathechicken",
+		"sweetums",
+		"fozziebear",
+		"beaker",
+		"swedishchef",
+		"dawn"
+	]
 },
 {
-		"id": "nonverbal",
-		"name": "Non-Verbal",
-		"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/beaker%20fabelled.png",
-		"edition": "Muppets",
-		"team": "fabled",
-		"ability": "Communicating without using real words. Gestures, noises, and pointing all count as non-verbal. Player names can be used when playing online."
+	"id": "nonverbal",
+	"name": "Non-Verbal",
+	"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/beaker%20fabelled.png",
+	"edition": "Muppets",
+	"team": "fabled",
+	"ability": "Communicating without using real words. Gestures, noises, and pointing all count as non-verbal. Player names can be used when playing online.",
+	"firstNight": 0,
+	"otherNight": 0
 },
 {
-		"id": "manormuppet",
-		"name": "Am I Man or Muppet?",
-		"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/am%20i%20a%20man%20fabelled.png",
-		"edition": "Muppets",
-		"team": "fabled",
-		"ability": "If a Townsfolk is turned into a Human they are not informed of this. If a Human is turned into a Townsfolk they are not told of the change, and they become the Townsfolk they believe themselves to be."
+	"id": "manormuppet",
+	"name": "Am I Man or Muppet?",
+	"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/am%20i%20a%20man%20fabelled.png",
+	"edition": "Muppets",
+	"team": "fabled",
+	"ability": "If a Townsfolk is turned into a Human they are not informed of this. If a Human is turned into a Townsfolk they are not told of the change, and they become the Townsfolk they believe themselves to be.",
+	"firstNight": 0,
+	"otherNight": 0
 },
 {
-		"id": "bigbird",
-		"name": "Big Bird",
-		"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/big%20bird.png",
-		"edition": "Muppets",
-		"team": "traveller",
-		"ability": "You are the tallest player.",
-		"flavor": "Show your true colours. Mine is yellow."
+	"id": "bigbird",
+	"name": "Big Bird",
+	"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/big%20bird.png",
+	"edition": "Muppets",
+	"team": "traveller",
+	"ability": "You are the tallest player.",
+	"flavor": "Show your true colours. Mine is yellow.",
+	"firstNight": 0,
+	"otherNight": 0
 },
 {
-		"id": "cookiemonster",
-		"name": "Cookie Monster",
-		"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/cookie%20monster.png",
-		"edition": "Muppets",
-		"team": "traveller",
-		"ability": "All players must share their snacks with you.",
-		"flavor": "No cry because cookie is finished. Smile because cookie happened."
+	"id": "cookiemonster",
+	"name": "Cookie Monster",
+	"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/cookie%20monster.png",
+	"edition": "Muppets",
+	"team": "traveller",
+	"ability": "All players must share their snacks with you.",
+	"flavor": "No cry because cookie is finished. Smile because cookie happened.",
+	"firstNight": 0,
+	"otherNight": 0
 },
 {
-		"id": "countvoncount",
-		"name": "Count von Count",
-		"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/count%20von%20count.png",
-		"edition": "Muppets",
-		"team": "traveller",
-		"ability": "You conduct and count each vote.",
-		"flavor": "One. AH AH AH. Two. AH AH AH."
+	"id": "countvoncount",
+	"name": "Count von Count",
+	"image": "https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/count%20von%20count.png",
+	"edition": "Muppets",
+	"team": "traveller",
+	"ability": "You conduct and count each vote.",
+	"flavor": "One. AH AH AH. Two. AH AH AH.",
+	"firstNight": 0,
+	"otherNight": 0
 },
 {
-		"id": "bunsenhoneydew",
-		"name": "Bunsen Honeydew",
-		"edition": "Muppets",
-		"team": "townsfolk",
-		"ability": "You start knowing how many characters are in play that can create Humans.",
-		"flavor": "Science has left me a sad and lonely man.",
-		"image": [
+	"id": "bunsenhoneydew",
+	"name": "Bunsen Honeydew",
+	"edition": "Muppets",
+	"team": "townsfolk",
+	"ability": "You start knowing how many characters are in play that can create Humans.",
+	"flavor": "Science has left me a sad and lonely man.",
+	"firstNight": 1,
+	"otherNight": 0,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/bunsen.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/bunsen%20rev_.png"
-		],
-		"firstNightReminder": "Give a finger signal"
+	],
+	"firstNightReminder": "Give a finger signal."
 },
 {
-		"id": "rowlfthedog",
-		"name": "Rowlf the Dog",
-		"edition": "Muppets",
-		"team": "townsfolk",
-		"ability": "You start knowing 2 players who are not Townsfolk.",
-		"flavor": "Why does everyone always blame dogs?",
-		"image": [
+	"id": "rowlfthedog",
+	"name": "Rowlf the Dog",
+	"edition": "Muppets",
+	"team": "townsfolk",
+	"ability": "You start knowing 2 players who are not Townsfolk.",
+	"flavor": "Why does everyone always blame dogs?",
+	"firstNight": 2,
+	"otherNight": 0,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/rowlf.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/rowlf%20rev.png"
-		],
-		"reminders": ["Not Townsfolk","Not Townsfolk"],
-		"firstNightReminder": "Point to two players who are not townsfolk"
+	],
+	"reminders": [
+		"Not Townsfolk",
+		"Not Townsfolk"
+	],
+	"firstNightReminder": "Point to two players who are not Townsfolk."
 },
 {
-		"id": "pepetheprawn",
-		"name": "Pepe the Prawn",
-		"edition": "Muppets",
-		"team": "townsfolk",
-		"ability": "You start knowing which Demons are in play.",
-		"flavor": "I am not a shrimp – I am a king prawn, okay!",
-		"image": [
+	"id": "pepetheprawn",
+	"name": "Pepe the Prawn",
+	"edition": "Muppets",
+	"team": "townsfolk",
+	"ability": "You start knowing which Demons are in play.",
+	"flavor": "I am not a shrimp – I am a king prawn, okay!",
+	"firstNight": 3,
+	"otherNight": 0,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/pepe.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/pepe%20rev.png"
-		],
-		"firstNightReminder": "Show the Demon character token."
+	],
+	"firstNightReminder": "Show the Demon character token."
 },
 {
-		"id": "samtheeagle",
-		"name": "Sam the Eagle",
-		"edition": "Muppets",
-		"team": "townsfolk",
-		"ability": "Each night, you learn how many steps from you to an alive evil player. [+1 Human]",
-		"flavor": "At times like these, I am proud to be an American.",
-		"image": [
+	"id": "samtheeagle",
+	"name": "Sam the Eagle",
+	"edition": "Muppets",
+	"team": "townsfolk",
+	"ability": "Each night, you learn how many steps from you to an alive evil player. [+1 Human]",
+	"flavor": "At times like these, I am proud to be an American.",
+	"firstNight": 4,
+	"otherNight": 0,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/sam.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/sam%20rev.png"
-		],
-		"setup": true,
-		"firstNightReminder": "Give a finger signal",
-		"otherNightReminder": "Give a finger signal"
+	],
+	"setup": true,
+	"firstNightReminder": "Give a finger signal.",
+	"otherNightReminder": "Give a finger signal."
 },
 {
-		"id": "kermitthefrog",
-		"name": "Kermit the Frog",
-		"edition": "Muppets",
-		"team": "townsfolk",
-		"ability": "Each night*, choose a player (not yourself): a Human, if chosen, becomes a Townsfolk.",
-		"flavor": "It's nice to be important, but it's important to be nice.",
-		"image": [
+	"id": "kermitthefrog",
+	"name": "Kermit the Frog",
+	"edition": "Muppets",
+	"team": "townsfolk",
+	"ability": "Each night*, choose a player (not yourself): a Human, if chosen, becomes a Townsfolk.",
+	"flavor": "It's nice to be important, but it's important to be nice.",
+	"firstNight": 0,
+	"otherNight": 10,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/kermit.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/kermit%20rev.png"
-		],
-		"otherNightReminder": "If Kermit selected a human, remove the human reminder token. If Miss Piggy is in play instead add a human reminder token"
+	],
+	"otherNightReminder": "Kermit picks a player. If Kermit selected a human, remove the human reminder token. If Miss Piggy is in play, instead add a human reminder token."
 },
 {
-		"id": "camillathechicken",
-		"name": "Camilla the Chicken",
-		"edition": "Muppets",
-		"team": "townsfolk",
-		"ability": "Each night*, if a player died by execution today: you learn a player of their alignment.",
-		"flavor": "BAWK BAWK BAWK! BAWK BAWK.",
-		"image": [
+	"id": "camillathechicken",
+	"name": "Camilla the Chicken",
+	"edition": "Muppets",
+	"team": "townsfolk",
+	"ability": "Each night*, if a player died by execution today: you learn a player of their alignment.",
+	"flavor": "BAWK BAWK BAWK! BAWK BAWK.",
+	"firstNight": 0,
+	"otherNight": 13,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/camilla.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/camilla%20rev.png"
-		],
-		"reminders": ["Executed Today"],
-		"otherNightReminder": "Show a player"
+	],
+	"reminders": [
+		"Executed Today"
+	],
+	"otherNightReminder": "Point to a player of the same alignment as the player executed today."
 },
 {
-		"id": "sweetums",
-		"name": "Sweetums",
-		"edition": "Muppets",
-		"team": "townsfolk",
-		"ability": "Each night*, you learn how many evil players voted today.",
-		"flavor": "Excuse me Mr. Price, can I give you a hand? (takes off hand)",
-		"image": [
+	"id": "sweetums",
+	"name": "Sweetums",
+	"edition": "Muppets",
+	"team": "townsfolk",
+	"ability": "Each night*, you learn how many evil players voted today.",
+	"flavor": "Excuse me Mr. Price, can I give you a hand? (takes off hand)",
+	"firstNight": 0,
+	"otherNight": 14,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/sweetems.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/sweetems%20rev.png"
-		],
-		"reminders": ["Voted","Voted","Voted","Voted","Voted"],
-		"otherNightReminder": "Give a finger signal"
+	],
+	"reminders": [
+		"Voted",
+		"Voted",
+		"Voted",
+		"Voted",
+		"Voted"
+	],
+	"otherNightReminder": "Give a finger signal."
 },
 {
-		"id": "swedishchef",
-		"name": "Swedish Chef",
-		"edition": "Muppets",
-		"team": "townsfolk",
-		"ability": "Each night*, you learn if there are more or less Humans than last night. If you were non-verbal on the 1st day, you instead learn how many Humans are in play.",
-		"flavor": "Herdy dur shur floompty. Bort, bort, bort!",
-		"image": [
+	"id": "swedishchef",
+	"name": "Swedish Chef",
+	"edition": "Muppets",
+	"team": "townsfolk",
+	"ability": "Each night*, you learn if there are more or less Humans than last night. If you were non-verbal on the 1st day, you instead learn how many Humans are in play.",
+	"flavor": "Herdy dur shur floompty. Bort, bort, bort!",
+	"firstNight": 0,
+	"otherNight": 17,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/cheff.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/cheff%20rev.png"
-		],
-		"reminders": ["Non-verbal"],
-		"otherNightReminder": "Give a finger signal (up, down, or number)"
+	],
+	"reminders": [
+		"Non-verbal"
+	],
+	"otherNightReminder": "Give a finger signal (up, down, or number)."
 },
 {
-		"id": "thegreatgonzo",
-		"name": "The Great Gonzo",
-		"edition": "Muppets",
-		"team": "townsfolk",
-		"ability": "Each night*, you may choose a player: if you choose a Minion they die, if you choose a Townsfolk you die.",
-		"flavor": "Tonight ladies and gentlemen, I will eat this rubber tire to the music of The Flight of the Bumblebee...music, maestro!",
-		"image": [
+	"id": "thegreatgonzo",
+	"name": "The Great Gonzo",
+	"edition": "Muppets",
+	"team": "townsfolk",
+	"ability": "Each night*, you may choose a player: if you choose a Minion they die, if you choose a Townsfolk you die.",
+	"flavor": "Tonight ladies and gentlemen, I will eat this rubber tire to the music of The Flight of the Bumblebee...music, maestro!",
+	"firstNight": 0,
+	"otherNight": 1,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/gonzo.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/gonzo%20rev.png"
-		],
-		"reminders": ["Died tonight"],
-		"otherNightReminder": "Gonzo chooses a player."
+	],
+	"reminders": [
+		"Died tonight"
+	],
+	"otherNightReminder": "Gonzo chooses a player. If a Minion is chosen, the Minion dies. If a Townsfolk is chosen, Gonzo dies."
 },
 {
-		"id": "rizzotherat",
-		"name": "Rizzo the Rat",
-		"edition": "Muppets",
-		"team": "townsfolk",
-		"ability": "Each night*, choose a player: if they are killed by the Demon tonight, you learn an alive character.",
-		"flavor": "He died?! And this is supposed to be a kids movie!",
-		"image": [
+	"id": "rizzotherat",
+	"name": "Rizzo the Rat",
+	"edition": "Muppets",
+	"team": "townsfolk",
+	"ability": "Each night*, choose a player: if they are killed by the Demon tonight, you learn an alive character.",
+	"flavor": "He died?! And this is supposed to be a kids movie!",
+	"firstNight": 0,
+	"otherNight": 2,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/rizzo.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/rizzo%20rev.png"
-		],
-		"reminders": ["Chosen"],
-		"otherNightReminder": "Rizzo chooses a player. Wake them again if that player dies tonight."
+	],
+	"reminders": [
+		"Chosen"
+	],
+	"otherNightReminder": "Rizzo chooses a player. Wake them again if that player dies tonight, and show a character token."
 },
 {
-		"id": "fozziebear",
-		"name": "Fozzie Bear",
-		"edition": "Muppets",
-		"team": "townsfolk",
-		"ability": "Each day, you may make a public joke. Wocka! Wocka! Tonight, you learn if it was true.",
-		"flavor": "Did I tell you the one about the man with the light bulb in his nose? He was lightheaded! Get it? Wocka Wocka!",
-		"image": [
+	"id": "fozziebear",
+	"name": "Fozzie Bear",
+	"edition": "Muppets",
+	"team": "townsfolk",
+	"ability": "Each day, you may make a public joke. Wocka! Wocka! Tonight, you learn if it was true.",
+	"flavor": "Did I tell you the one about the man with the light bulb in his nose? He was lightheaded! Get it? Wocka Wocka!",
+	"firstNight": 0,
+	"otherNight": 15,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/fozzie.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/fozzie%20rev.png"
-		],
-		"reminders": ["True"],
-		"otherNightReminder": "Nod if a *True* reminder was placed today."
+	],
+	"reminders": [
+		"True"
+	],
+	"otherNightReminder": "Nod if a *True* reminder was placed today."
 },
 {
-		"id": "drteeth",
-		"name": "Dr. Teeth",
-		"edition": "Muppets",
-		"team": "townsfolk",
-		"ability": "If the Demon kills you, a Human becomes a Townsfolk: you learn who.",
-		"flavor": "This staccato tune is posolutely, most transparently bringing me down!",
-		"image": [
+	"id": "drteeth",
+	"name": "Dr. Teeth",
+	"edition": "Muppets",
+	"team": "townsfolk",
+	"ability": "If the Demon kills you, a Human becomes a Townsfolk: you learn who.",
+	"flavor": "This staccato tune is posolutely, most transparently bringing me down!",
+	"firstNight": 0,
+	"otherNight": 11,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/dr%20teeths.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/dr%20teeths%20rev.png"
-		],
-		"otherNightReminder": "If Dr. Teeth was killed by the demon tonight, remove the human reminder token from a player, show them the player."
+	],
+	"otherNightReminder": "If Dr. Teeth was killed by the demon tonight, remove the human reminder token from a player, point them to the player."
 },
 {
-		"id": "beaker",
-		"name": "Beaker",
-		"edition": "Muppets",
-		"team": "townsfolk",
-		"ability": "If you were non-verbal on the 1st day, that night you learn the characters of players who were non-verbal (up to 4) & one character which is not in play.",
-		"flavor": "Meep meep meep!",
-		"image": [
+	"id": "beaker",
+	"name": "Beaker",
+	"edition": "Muppets",
+	"team": "townsfolk",
+	"ability": "If you were non-verbal on the 1st day, that night you learn the characters of players who were non-verbal (up to 4) & one character which is not in play.",
+	"flavor": "Meep meep meep!",
+	"firstNight": 0,
+	"otherNight": 16,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/beaker.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/beaker%20rev.png"
-		],
-		"reminders": ["Non-verbal", "Non-verbal", "Non-verbal", "Non-verbal", "Non-verbal", "Non-verbal", "Non-verbal", "Non-verbal", "Non-verbal", "Non-verbal", "Non-verbal", "Non-verbal", "Non-verbal", "Non-verbal", "Non-verbal"],
-		"firstNightReminder": "Show up to 5 character tokens"
+	],
+	"reminders": [
+		"Non-verbal",
+		"Non-verbal",
+		"Non-verbal",
+		"Non-verbal"
+	],
+	"firstNightReminder": "Show up to 5 character tokens."
 },
 {
-		"id": "longjohnsilver",
-		"name": "Long John Silver",
-		"edition": "Muppets",
-		"team": "outsider",
-		"ability": "Each night*, one player who voted on you that day might die, even if you are dead.",
-		"flavor": "Upstage, lads. This is my only number!",
-		"image": [
+	"id": "longjohnsilver",
+	"name": "Long John Silver",
+	"edition": "Muppets",
+	"team": "outsider",
+	"ability": "Each night*, one player who voted on you that day might die, even if you are dead.",
+	"flavor": "Upstage, lads. This is my only number!",
+	"firstNight": 0,
+	"otherNight": 9,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/long%20john.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/long%20john%20rev.png"
-		],
-		"reminders": ["Voted", "Voted", "Voted", "Voted", "Voted", "Voted", "Voted", "Voted", "Voted", "Voted", "Voted", "Voted", "Voted", "Voted", "Voted", "Died tonight"]
+	],
+	"reminders": [
+		"Voted",
+		"Voted",
+		"Voted",
+		"Voted",
+		"Voted",
+		"Voted",
+		"Voted",
+		"Voted",
+		"Died tonight"
+	],
+	"otherNightReminder": "If Long John Silver was nominated today, one of the players who voted on them might die tonight."
 },
 {
-		"id": "scrooge",
-		"name": "Scrooge",
-		"edition": "Muppets",
-		"team": "outsider",
-		"ability": "Each night, if a player chooses another player, they might target you instead.",
-		"flavor": "Who was the wretched man whose death brought so much glee and happiness to others?",
-		"image": [
+	"id": "scrooge",
+	"name": "Scrooge",
+	"edition": "Muppets",
+	"team": "outsider",
+	"ability": "Each night, if a player chooses another player, they might target you instead.",
+	"flavor": "Who was the wretched man whose death brought so much glee and happiness to others?",
+	"firstNight": 0,
+	"otherNight": 0,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/scrooge.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/scrooge%20rev.png"
-		],
-		"reminders": ["Scrooged"]
+	],
+	"reminders": [
+		"Scrooged"
+	]
 },
 {
-		"id": "cameraman",
-		"name": "Cameraman",
-		"edition": "Muppets",
-		"team": "outsider",
-		"ability": "If you communicate verbally on the 1st day, a Townsfolk might become Human immediately.",
-		"flavor": "…",
-		"image": [
+	"id": "cameraman",
+	"name": "Cameraman",
+	"edition": "Muppets",
+	"team": "outsider",
+	"ability": "If you communicate verbally on the 1st day, a Townsfolk might become Human immediately.",
+	"flavor": "…",
+	"firstNight": 0,
+	"otherNight": 0,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/camera%20man.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/camera%20man%20rev.png"
-		]
+	]
 },
 {
-		"id": "human",
-		"name": "Human",
-		"edition": "Muppets",
-		"team": "outsider",
-		"ability": "You do not know you are a Human. You think you are a Townsfolk character, but you are not.",
-		"flavor": "Am I a man? Or am I a Muppet?",
-		"image": [
+	"id": "human",
+	"name": "Human",
+	"edition": "Muppets",
+	"team": "outsider",
+	"ability": "You do not know you are a Human. You think you are a Townsfolk character, but you are not.",
+	"flavor": "Am I a man? Or am I a Muppet?",
+	"firstNight": 0,
+	"otherNight": 0,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/am%20i%20a%20man.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/am%20i%20a%20man%20rev.png"
-		],
-		"remindersGlobal": ["Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human", "Human"],
-		"otherNightReminder": "Treat them as if they were the character they think they are, but human.",
-		"special": [{"type": "reveal", "name": "replace-character"}, {"type": "selection", "name": "bag-disabled"}]
+	],
+	"remindersGlobal": [
+		"Human",
+		"Human",
+		"Human",
+		"Human",
+		"Human",
+		"Human",
+		"Human",
+		"Human",
+		"Human",
+		"Human",
+		"Human",
+		"Human"
+	],
+	"otherNightReminder": "Treat them as if they were the character they think they are, but human.",
+	"special": [
+		{
+			"type": "reveal",
+			"name": "replace-character"
+		},
+		{
+			"type": "selection",
+			"name": "bag-disabled"
+		}
+	]
 },
 {
-		"id": "crazyharry",
-		"name": "Crazy Harry",
-		"edition": "Muppets",
-		"team": "minion",
-		"ability": "Each night*, choose a player: the 1st Outsider you choose becomes evil. [+1 Outsider]",
-		"flavor": "Heh, heh—Did somebody say… BOMB!?",
-		"image": [
+	"id": "crazyharry",
+	"name": "Crazy Harry",
+	"edition": "Muppets",
+	"team": "minion",
+	"ability": "Each night*, choose a player: the 1st Outsider you choose becomes evil. [+1 Outsider]",
+	"flavor": "Heh, heh—Did somebody say… BOMB!?",
+	"firstNight": 0,
+	"otherNight": 4,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/crazy%20harry.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/crazy%20harry%20rev.png"
-		],
-		"reminders": ["Turns Evil"],
-		"firstNightReminder": "Crazy Harry selects a player. Nod the first time they select an outsider.",
-		"otherNightReminder": "Crazy Harry selects a player. Nod the first time they select an outsider.",
-		"setup": true
+	],
+	"reminders": [
+		"Turns Evil"
+	],
+	"firstNightReminder": "Crazy Harry selects a player. Nod the first time they select an Outsider.",
+	"otherNightReminder": "Crazy Harry selects a player. Nod the first time they select an Outsider.",
+	"setup": true
 },
 {
-		"id": "scooter",
-		"name": "Scooter",
-		"edition": "Muppets",
-		"team": "minion",
-		"ability": "If there are 5 or more players alive, once per day, you may choose to take a player off the block.",
-		"flavor": "(Holds the clapboard the wrong way) Okay, Muppet Movie, Scenery 1A, Take One!",
-		"image": [
+	"id": "scooter",
+	"name": "Scooter",
+	"edition": "Muppets",
+	"team": "minion",
+	"ability": "If there are 5 or more players alive, once per day, you may choose to take a player off the block.",
+	"flavor": "(Holds the clapboard the wrong way) Okay, Muppet Movie, Scenery 1A, Take One!",
+	"firstNight": 0,
+	"otherNight": 0,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/scooter.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/scooter%20rev.png"
-		],
-		"reminders": ["Used today", "No ability"]
+	],
+	"reminders": [
+		"Used Today",
+		"No Ability"
+	]
 },
 {
-		"id": "constantine",
-		"name": "Constantine",
-		"edition": "Muppets",
-		"team": "minion",
-		"ability": "Each night*, you may choose 2 players (not a Demon): they swap characters but their abilities do not refresh. You might register as good, and as Kermit the Frog, even if dead.",
-		"flavor": "My name will go down as the greatest thief of all time!",
-		"image": [
+	"id": "constantine",
+	"name": "Constantine",
+	"edition": "Muppets",
+	"team": "minion",
+	"ability": "Each night*, you may choose 2 players (not a Demon): they swap characters but their abilities do not refresh. You might register as good, and as Kermit the Frog, even if dead.",
+	"flavor": "My name will go down as the greatest thief of all time!",
+	"firstNight": 0,
+	"otherNight": 5,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/constantine.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/constantine%20rev.png"
-		],
-		"otherNightReminder": "Constanine selects two players (not the demon)."
+	],
+	"otherNightReminder": "Constantine selects two players (not the demon). Swap character tokens of the two chosen players. Wake each swapped player, show them the YOU ARE info token and their new character token. Do not refresh abilities."
 },
 {
-		"id": "animal",
-		"name": "Animal",
-		"edition": "Muppets",
-		"team": "minion",
-		"ability": "Once per game, at night*, choose a player: they die. If you were non-verbal on the 1st day, one of their Townsfolk neighbours becomes Human.",
-		"flavor": "BEAT DRUMS! BEAT DRUMS!",
-		"image": [
+	"id": "animal",
+	"name": "Animal",
+	"edition": "Muppets",
+	"team": "minion",
+	"ability": "Once per game, at night*, choose a player: they die. If you were non-verbal on the 1st day, one of their Townsfolk neighbours becomes Human.",
+	"flavor": "BEAT DRUMS! BEAT DRUMS!",
+	"firstNight": 0,
+	"otherNight": 3,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/animal.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/animal%20rev.png"
-		],
-		"reminders": ["Non-verbal", "Died tonight"],
-		"otherNightReminder": "Does Animal want to use it? If yes, Animal chooses a player."
+	],
+	"reminders": [
+		"Non-verbal",
+		"Died Tonight"
+	],
+	"otherNightReminder": "Does Animal want to use it? If yes, Animal chooses a player."
 },
 {
-		"id": "misspiggy",
-		"name": "Miss Piggy",
-		"edition": "Muppets",
-		"team": "demon",
-		"ability": "Each night*, choose a player: they die. Townsfolk chosen by Kermit the Frog might become Humans instead. [+ Kermit the Frog]",
-		"flavor": "Women are like bacon, they smell good, they probably taste good, and they will kill you slowly.",
-		"image": [
+	"id": "misspiggy",
+	"name": "Miss Piggy",
+	"edition": "Muppets",
+	"team": "demon",
+	"ability": "Each night*, choose a player: they die. Townsfolk chosen by Kermit the Frog might become Humans instead. [+ Kermit the Frog]",
+	"flavor": "Women are like bacon, they smell good, they probably taste good, and they will kill you slowly.",
+	"firstNight": 0,
+	"otherNight": 6,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/miss%20piggy.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/miss%20piggy%20rev.png"
-		],
-		"setup": true,
-		"reminders": ["Died tonight", "Corrupted"],
-		"otherNightReminder": "Miss Piggy chooses a player"
+	],
+	"setup": true,
+	"reminders": [
+		"Died Tonight",
+		"Corrupted"
+	],
+	"otherNightReminder": "Miss Piggy chooses a player."
 },
 {
-		"id": "uncledeadly",
-		"name": "Uncle Deadly",
-		"edition": "Muppets",
-		"team": "demon",
-		"ability": "Each night*, choose a player: they die. Townsfolk who nominate you become Human immediately.",
-		"flavor": "I swore I would never perform here again, nor would anyone else. I will drive you all from this theatre. LEAVE OR BE DOOOOOOOOOMED!",
-		"image": [
+	"id": "uncledeadly",
+	"name": "Uncle Deadly",
+	"edition": "Muppets",
+	"team": "demon",
+	"ability": "Each night*, choose a player: they die. Townsfolk who nominate you become Human immediately.",
+	"flavor": "I swore I would never perform here again, nor would anyone else. I will drive you all from this theatre. LEAVE OR BE DOOOOOOOOOMED!",
+	"firstNight": 0,
+	"otherNight": 8,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/uncle%20deadly.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/uncle%20deadly%20rev.png"
-		],
-		"reminders": ["Died tonight"],
-		"otherNightReminder": "Uncle Deadly chooses a player."
+	],
+	"reminders": [
+		"Died Tonight"
+	],
+	"otherNightReminder": "Uncle Deadly chooses a player."
 },
 {
-		"id": "statler",
-		"name": "Statler",
-		"edition": "Muppets",
-		"team": "demon",
-		"ability": "Each night*, wake with Waldorf, together choose one player: they die. [+ Waldorf, -1 Minion]",
-		"flavor": "Nope, they're ALL bad!",
-		"image": [
+	"id": "statler",
+	"name": "Statler",
+	"edition": "Muppets",
+	"team": "demon",
+	"ability": "Each night*, wake with Waldorf, together choose one player: they die. [+ Waldorf, -1 Minion]",
+	"flavor": "Nope, they're ALL bad!",
+	"firstNight": 0,
+	"otherNight": 7,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/statler.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/statler%20rev.png"
-		],
-		"setup": true,
-		"reminders": ["Died tonight"],
-		"otherNightReminder": "Wake with Waldorf: choose a player."
+	],
+	"setup": true,
+	"reminders": [
+		"Died Tonight"
+	],
+	"otherNightReminder": "Wake with Waldorf: Choose a player."
 },
 {
-		"id": "waldorf",
-		"name": "Waldorf",
-		"edition": "Muppets",
-		"team": "demon",
-		"ability": "Each night*, wake with Statler, together\nchoose one player: they die. [+ Statler]\n",
-		"flavor": "They aren't half bad.",
-		"image": [
+	"id": "waldorf",
+	"name": "Waldorf",
+	"edition": "Muppets",
+	"team": "demon",
+	"ability": "Each night*, wake with Statler, together choose one player: they die. [+ Statler]",
+	"flavor": "They aren't half bad.",
+	"firstNight": 0,
+	"otherNight": 7,
+	"image": [
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/waldorf.png",
 		"https://raw.githubusercontent.com/boonhankoh/muppets/master/Tokens/waldorf%20rev.png"
-		],
-		"setup": true,
-		"reminders": ["Died tonight"],
-		"otherNightReminder": "Wake with Statler: choose a player."
+	],
+	"setup": true,
+	"reminders": [
+		"Died Tonight"
+	],
+	"otherNightReminder": "Wake with Statler: Choose a player."
 },
 	"bootlegger"
 ]
