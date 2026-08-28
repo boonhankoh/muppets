@@ -441,7 +441,7 @@
 	"name": "Constantine",
 	"edition": "Muppets",
 	"team": "minion",
-	"ability": "Each night*, you may choose 2 players (not a Demon): they swap characters but their abilities do not refresh. You might register as good, and as Kermit the Frog, even if dead.",
+	"ability": "Each night*, you may choose 2 players (not a Demon): they swap characters but their abilities do not refresh.",
 	"flavor": "My name will go down as the greatest thief of all time!",
 	"firstNight": 0,
 	"otherNight": 5,
